@@ -7,7 +7,7 @@ function Home() {
         cursor: "pointer"
     }
     return (
-        <div onClick={() => navigate("/") } style={style}>Index</div>
+        <div onClick={() => navigate("/") } style={style}>Index 8</div>
     );
 }
 
