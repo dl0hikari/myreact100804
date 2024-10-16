@@ -1,0 +1,50 @@
+.cssTransition-demo {
+  width: 500px;
+  margin: 30px auto;
+
+  .box {
+    height: 50px;
+    border: 2px solid transparent;
+    width: 500px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+
+
+  .my-appear {
+    background: #f5f6f8;
+    height: 150px;
+  }
+  .my-appear-active{
+    background: #f5f6f8;
+    height: 150px;
+  }
+  .my-appear-done{
+    background: #cfe2ff;
+    height: 150px;
+  }
+
+  .my-enter  {
+    background: #cfe2ff;
+    height: 50px;
+  }
+  .my-enter-active{
+    background: #cfe2ff;
+    height: 50px;
+  }
+  .my-enter-done {
+    background: #198754;
+    height: 50px;
+  }
+
+  .my-exit {
+    background: #dc3545;
+  }
+  .my-exit-active {
+    background: #dc3545;
+  }
+  .my-exit-done {
+    background: transparent;
+  }
+}

@@ -1,0 +1,45 @@
+.transition-demo {
+  width: 500px;
+  margin: 30px auto;
+
+  .box {
+    height: 50px;
+    width: 500px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin: auto;
+    // background-color: #cfe2ff;
+    // transform: translateX(-100%);
+  }
+
+
+
+  // 已离开
+  .exited {
+    opacity: 0;
+    background: #cfe2ff;
+    transform: translateX(100%);
+  }
+
+  // 离开中
+  .exiting {
+    background: #dc3545;
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  // 已进入
+  .entered {
+    opacity: 1;
+    background: #198754;
+    transform: translateX(0%);
+  }
+
+  // 进入中
+  .entering {
+    opacity: 0;
+    background: #cfe2ff;
+    transform: translateX(-100%);
+  }
+
+}
