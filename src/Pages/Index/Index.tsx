@@ -8,6 +8,7 @@ import {TransitionGroupDemo} from "../demo/transitionGroup/transitionGroup";
 
 function Index() {
     const {id} = useParams();
+    a
 
     return (
         <div>
